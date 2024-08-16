@@ -67,6 +67,7 @@ body {
   grid-template-columns: 2fr 1fr;
   gap: 0.5rem;
   text-align: center;
+  margin: 0.5rem 0;
 }
 
 .todo .list > .action a {
@@ -83,4 +84,10 @@ body {
 }
 .todo .list > .action a:nth-child(2) {
   background-color: rgba(1, 148, 1, 0.5);
+}
+
+p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
