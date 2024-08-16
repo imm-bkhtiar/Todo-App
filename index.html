@@ -1,34 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>TodoList</title>
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-  
-  <!--Judul Start-->
-  <h2>IM READY</h2>
-  <!--Judul End-->
-  
- <!--Tambah List-->
- <div class="add">
-   <input type="text" id="input" placeholder="Mau ngapain?">
-   <p class="tombol">Tambahkan</p>
- </div>
- <!--Tambah List-->
- 
-  
-  <!--Work Space-->
-  <div class="container-list">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Todo - App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <h2>Todo - App</h2>
+        <form action="" method="post">
+          <label>
+            <input type="text" name="Todo" />
+          </label>
+          <button type="submit">Buat List</button>
+        </form>
+      </div>
+      <div class="todList"></div>
+    </div>
 
-  </div>
-  <!--Work Space-->
-  
-  
-
-<script src="./js/script.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
