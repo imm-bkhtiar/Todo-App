@@ -91,3 +91,9 @@ p {
   overflow-wrap: break-word;
   word-break: break-word;
 }
+
+.container > .todo .list.true > p {
+  text-decoration: line-through;
+  font-style: italic;
+  color: rgba(5, 125, 101, 0.597);
+}
