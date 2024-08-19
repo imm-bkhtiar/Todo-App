@@ -81,7 +81,7 @@ const loadbtn = () => {
       const itemSelesai = todos
         .filter((todo) => `${todo.id}` === key)
         .map((todo) => {
-          if (todo.id === parseInt(key)) {
+          if (todo.selesai === false) {
             todo.selesai = true;
           } else {
             todo.selesai = false;
